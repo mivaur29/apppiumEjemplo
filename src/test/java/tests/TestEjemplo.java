@@ -39,7 +39,7 @@ public class TestEjemplo {
         Assert.fail();
 
     }
-
+    //cerrar
     @AfterTest
     public void closeDriver() {
         driver.quit();
