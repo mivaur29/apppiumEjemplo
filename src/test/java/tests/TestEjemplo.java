@@ -28,7 +28,6 @@ public class TestEjemplo {
         cap.setCapability("udid", "emulator-5554");
         cap.setCapability("appPackage", "com.android..calculator");
         cap.setCapability("appActivity", "com.android.calculator2.Calculator");
-
         driver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 
     }
